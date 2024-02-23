@@ -12,7 +12,7 @@ const requestListener=(req,res)=>{
         <body>
         <h1>Home</h1>
         </body>
-        </html
+        </html>
         `)
     }
     else if( req.url==="/blogs"){
@@ -25,20 +25,20 @@ const requestListener=(req,res)=>{
         <body>
         <h1>Blogs</h1>
         </body>
-        </html
+        </html>
         `)
     }
     else{
         res.writeHead(404,{"Content-Type":"text/html"})
         res.write(`
         <html>
-        <head>
+        <head>s
         <title> Page Not Found</title>
         </head>
         <body>
         <h1>Page Not Found</h1>
         </body>
-        </html
+        </html>
         `)
     }
 
