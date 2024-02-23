@@ -8,5 +8,5 @@ app.listen(3000,()=>{
 
 
 app.use((req,res)=>{
-    res.end("anasayfa")
+    res.end("hello world")
 })
